@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="attendancelist">
+        <xs:complexType>
+            <xs:element name="attendance">
+                <xs:complexType>
+                    <xs:all>
+					    <xs:element name="SlotNo" type="xs.integer"/>
+                        <xs:element name="StudentId" type="emailAddress"/>
+                        <xs:element name="AttendanceStatus" type="AttdStatus"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="emailAddress"> 
+        <xs:restriction base="xs:string"> 
+            <xs:pattern value="[^@]+@[^\.]+\..+"/> 
+        </xs:restriction> 
+    </xs:simpleType>
+    <xs:element name="password">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:minLength value="6"/>
+        <xs:maxLength value="254"/>
+        </xs:restriction>
+    </xs:simpleType>
+	<xs:simpleType name="AttdStatus">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Present"/>
+    <xs:enumeration value="Absent"/>
+    <xs:enumeration value="On-Duty"/>
+  </xs:restriction>
+</xs:simpleType>
+    
+</xs:schema>

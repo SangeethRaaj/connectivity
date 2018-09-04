@@ -1,0 +1,4 @@
+<!ELEMENT Studentslist (students)>
+<!ELEMENT students (SID,ClassID)>
+<!ELEMENT SID (#PCDATA)>
+<!ELEMENT ClassID (#PCDATA)>

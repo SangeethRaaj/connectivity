@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE attd SYSTEM "User.dtd">
+<userlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="User.xsd">
+    <user>
+        <UserName>KPA@gmail.com</UserName>
+        <Password>ram12</Password>
+        <Name>KPA</Name>
+        <RollNo>1</RollNo>
+    </user>
+    <user>
+        <UserName>Arun@gmail.com</UserName>
+        <Password>arun13</Password>
+        <Name>Arun</Name>
+        <RollNo>9</RollNo>
+    </user>
+    <user>
+        <UserName>Raj@outlook.com</UserName>
+        <Password>San42</Password>
+        <Name>Sangeeth</Name>
+        <RollNo>42</RollNo>
+    </user>
+    <user>
+        <UserName>Senthil@gmail.com</UserName>
+        <Password>MK123</Password>
+        <Name>Kumaran</Name>
+        <RollNo>32</RollNo>
+    </user>
+    <user>
+        <UserName>Valli@yahoo.com</UserName>
+        <Password>Appan</Password>
+        <Name>Valliyappan</Name>
+        <RollNo>45</RollNo>
+    </user>
+  </userlist>

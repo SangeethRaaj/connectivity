@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="classlist">
+        <xs:complexType>
+            <xs:element name="class">
+                <xs:complexType>
+                    <xs:all>
+					    <xs:element name="ClassId" type="xs.string"/>
+                        <xs:element name="UserName" type="emailAddress"/>
+                        <xs:element name="Name" type="xs.string"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="emailAddress"> 
+        <xs:restriction base="xs:string"> 
+            <xs:pattern value="[^@]+@[^\.]+\..+"/> 
+        </xs:restriction> 
+    </xs:simpleType>
+</xs:schema>

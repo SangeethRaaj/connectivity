@@ -1,0 +1,6 @@
+<!ELEMENT userlist (user)>
+<!ELEMENT user (UserName,Password,Name,RollNo)>
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT RollNo (#PCDATA)>

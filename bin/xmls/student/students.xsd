@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="studentlist">
+        <xs:complexType>
+            <xs:element name="class">
+                <xs:complexType>
+                    <xs:all>
+					<xs:element name="SID" type="xs.integer"/>
+					 <xs:element name="ClassId" type="xs.string"/> 
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

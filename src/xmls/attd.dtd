@@ -1,0 +1,6 @@
+<!ELEMENT attd (attd_stat)>
+<!ELEMENT attd_stat (date,hour,rollno,status)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT status (#PCDATA)>

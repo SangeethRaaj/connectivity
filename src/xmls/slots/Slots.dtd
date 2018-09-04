@@ -1,0 +1,6 @@
+<!ELEMENT slotslist (slots)>
+<!ELEMENT slots (SlotNo,ClassID,StartTime,EndTime)>
+<!ELEMENT SlotNo (#PCDATA)>
+<!ELEMENT ClassID (#PCDATA)>
+<!ELEMENT StartTime (#PCDATA)>
+<!ELEMENT EndTime (#PCDATA)>

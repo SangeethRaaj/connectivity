@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE attd SYSTEM "Slots.dtd">
+<slotslist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Slots.xsd">
+    <slots>
+        <Slotno>1</Slotno>
+        <ClassID>c11</ClassID>
+        <StartTime>2018-07-15T09:00:00</StartTime>
+        <EndTime>2018-07-15T10:00:00</EndTime>
+    </slots>
+    <slots>
+        <Slotno>2</Slotno>
+        <ClassID>c12</ClassID>
+        <StartTime>2018-07-16T09:00:00</StartTime>
+        <EndTime>2018-07-16T10:00:00</EndTime>
+    </slots>
+    <slots>
+        <Slotno>2</Slotno>
+        <ClassID>c11</ClassID>
+        <StartTime>2018-07-17T09:00:00</StartTime>
+        <EndTime>2018-07-17T09:00:00</EndTime>
+    </slots>
+    <slots>
+        <Slotno>3</Slotno>
+        <ClassID>c13</ClassID>
+        <StartTime>2018-07-18T09:00:00</StartTime>
+        <EndTime>2018-07-18T10:00:00</EndTime>
+    </slots>
+    <slots>
+        <Slotno>1</Slotno>
+        <ClassID>c11</ClassID>
+        <StartTime>2018-07-19T09:00:00</StartTime>
+        <EndTime>2018-07-19T10:00:00</EndTime>
+    </slots>
+</slotslist>

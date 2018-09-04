@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE attd SYSTEM "students.dtd">
+<studentslist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="students.xsd">
+    <students>
+        <SID>1</SID>
+        <ClassID>c11</ClassID>
+    </students>
+    <students>
+        <SID>2</SID>
+        <ClassID>c12</ClassID>
+    </students>
+    <students>
+        <SID>2</SID>
+        <ClassID>c11</ClassID>
+    </students>
+    <students>
+        <SID>3</SID>
+        <ClassID>c13</ClassID>
+    </students>
+    <students>
+        <SID>1</SID>
+        <ClassID>c11</ClassID>
+    </students>
+  </studentslist>

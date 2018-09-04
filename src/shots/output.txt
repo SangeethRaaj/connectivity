@@ -1,0 +1,64 @@
+Reading from the userlist xml and writing to the table `userlist`
+Successfully executed 'INSERT INTO userlist(`UserName`,`Password`,`Name`,`RollNo`) VALUES('KPA@gmail.com','ram12','KPA','1')'
+Successfully executed 'INSERT INTO userlist(`UserName`,`Password`,`Name`,`RollNo`) VALUES('Arun@gmail.com','arun13','Arun','9')'
+Successfully executed 'INSERT INTO userlist(`UserName`,`Password`,`Name`,`RollNo`) VALUES('Raj@outlook.com','San42','Sangeeth','42')'
+Successfully executed 'INSERT INTO userlist(`UserName`,`Password`,`Name`,`RollNo`) VALUES('Senthil@gmail.com','MK123','Kumaran','32')'
+Successfully executed 'INSERT INTO userlist(`UserName`,`Password`,`Name`,`RollNo`) VALUES('Valli@yahoo.com','Appan','Valliyappan','45')'
+Reading from the studentslist xml and writing to the table `Studentslist`
+Successfully executed 'INSERT INTO Studentslist(`SID`,`ClassID`) VALUES('1','c11')'
+Successfully executed 'INSERT INTO Studentslist(`SID`,`ClassID`) VALUES('2','c12')'
+Successfully executed 'INSERT INTO Studentslist(`SID`,`ClassID`) VALUES('2','c11')'
+Successfully executed 'INSERT INTO Studentslist(`SID`,`ClassID`) VALUES('3','c13')'
+Successfully executed 'INSERT INTO Studentslist(`SID`,`ClassID`) VALUES('1','c11')'
+Reading from the slotslist xml and writing to the table `slotslist`
+Successfully executed 'INSERT INTO slotslist(`Slotno`,`ClassID`,`StartTime`,`EndTime`) VALUES('1','c11','2018-07-15 09:00:00','2018-07-15 10:00:00')'
+Successfully executed 'INSERT INTO slotslist(`Slotno`,`ClassID`,`StartTime`,`EndTime`) VALUES('2','c12','2018-07-16 09:00:00','2018-07-16 10:00:00')'
+Successfully executed 'INSERT INTO slotslist(`Slotno`,`ClassID`,`StartTime`,`EndTime`) VALUES('2','c11','2018-07-17 09:00:00','2018-07-17 09:00:00')'
+Successfully executed 'INSERT INTO slotslist(`Slotno`,`ClassID`,`StartTime`,`EndTime`) VALUES('3','c13','2018-07-18 09:00:00','2018-07-18 10:00:00')'
+Successfully executed 'INSERT INTO slotslist(`Slotno`,`ClassID`,`StartTime`,`EndTime`) VALUES('1','c11','2018-07-19 09:00:00','2018-07-19 10:00:00')'
+Reading from the attendancelist xml and writing to the table `attendancelist`
+Successfully executed 'INSERT INTO attendancelist(`SlotNo`,`StudentId`,`AttendanceStatus`) VALUES('1','Raj@outlook.com','Present')'
+Successfully executed 'INSERT INTO attendancelist(`SlotNo`,`StudentId`,`AttendanceStatus`) VALUES('2','Raj@outlook.com','Present')'
+Successfully executed 'INSERT INTO attendancelist(`SlotNo`,`StudentId`,`AttendanceStatus`) VALUES('3','Raj@outlook.com','Absent')'
+Successfully executed 'INSERT INTO attendancelist(`SlotNo`,`StudentId`,`AttendanceStatus`) VALUES('4','Raj@outlook.com','Absent')'
+Successfully executed 'INSERT INTO attendancelist(`SlotNo`,`StudentId`,`AttendanceStatus`) VALUES('5','Raj@outlook.com','Present')'
+Reading from the classlist xml and writing to the table `classlist`
+Successfully executed 'INSERT INTO classlist(`ClassId`,`UserName`,`Name`) VALUES('C1','valli@yahoo.com','CSE')'
+Successfully executed 'INSERT INTO classlist(`ClassId`,`UserName`,`Name`) VALUES('C2','abc@yahoo.com','EEE')'
+Successfully executed 'INSERT INTO classlist(`ClassId`,`UserName`,`Name`) VALUES('C3','atoz@gmail.com','Civil')'
+Successfully executed 'INSERT INTO classlist(`ClassId`,`UserName`,`Name`) VALUES('C1','valli@yahoo.com','CSE')'
+----------- After insertion -----------
+
+-------- Table : userlist -----------
+UserName : KPA@gmail.com	| Password : ram12	| Name : KPA	| RollNo : 1	| 
+UserName : Arun@gmail.com	| Password : arun13	| Name : Arun	| RollNo : 9	| 
+UserName : Raj@outlook.com	| Password : San42	| Name : Sangeeth	| RollNo : 42	| 
+UserName : Senthil@gmail.com	| Password : MK123	| Name : Kumaran	| RollNo : 32	| 
+UserName : Valli@yahoo.com	| Password : Appan	| Name : Valliyappan	| RollNo : 45	| 
+
+-------- Table : Studentslist -----------
+SID : 1	| ClassID : c11	| 
+SID : 2	| ClassID : c12	| 
+SID : 2	| ClassID : c11	| 
+SID : 3	| ClassID : c13	| 
+SID : 1	| ClassID : c11	| 
+
+-------- Table : slotslist -----------
+Slotno : 1	| ClassID : c11	| StartTime : 2018-07-15 09:00:00	| EndTime : 2018-07-15 10:00:00	| 
+Slotno : 2	| ClassID : c12	| StartTime : 2018-07-16 09:00:00	| EndTime : 2018-07-16 10:00:00	| 
+Slotno : 2	| ClassID : c11	| StartTime : 2018-07-17 09:00:00	| EndTime : 2018-07-17 09:00:00	| 
+Slotno : 3	| ClassID : c13	| StartTime : 2018-07-18 09:00:00	| EndTime : 2018-07-18 10:00:00	| 
+Slotno : 1	| ClassID : c11	| StartTime : 2018-07-19 09:00:00	| EndTime : 2018-07-19 10:00:00	| 
+
+-------- Table : attendancelist -----------
+SlotNo : 1	| StudentId : Raj@outlook.com	| AttendanceStatus : Present	| 
+SlotNo : 2	| StudentId : Raj@outlook.com	| AttendanceStatus : Present	| 
+SlotNo : 3	| StudentId : Raj@outlook.com	| AttendanceStatus : Absent	| 
+SlotNo : 4	| StudentId : Raj@outlook.com	| AttendanceStatus : Absent	| 
+SlotNo : 5	| StudentId : Raj@outlook.com	| AttendanceStatus : Present	| 
+
+-------- Table : classlist -----------
+ClassId : C1	| UserName : valli@yahoo.com	| Name : CSE	| 
+ClassId : C2	| UserName : abc@yahoo.com	| Name : EEE	| 
+ClassId : C3	| UserName : atoz@gmail.com	| Name : Civil	| 
+ClassId : C1	| UserName : valli@yahoo.com	| Name : CSE	| 

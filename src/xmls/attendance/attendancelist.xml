@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE attd SYSTEM "attendance.dtd">
+<attendancelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="attendance.xsd">
+    
+	<attendance>
+	<SlotNo> 1</SlotNo>
+	<StudentId> Raj@outlook.com </StudentId>
+	<AttendanceStatus>Present </AttendanceStatus>
+	</attendance>
+	
+	<attendance>
+	<SlotNo> 2</SlotNo>
+	<StudentId> Raj@outlook.com </StudentId>
+	<AttendanceStatus>Present </AttendanceStatus>
+	</attendance>
+	
+	<attendance>
+	<SlotNo> 3</SlotNo>
+	<StudentId> Raj@outlook.com </StudentId>
+	<AttendanceStatus>Absent </AttendanceStatus>
+	</attendance>
+	
+	<attendance>
+	<SlotNo> 4</SlotNo>
+	<StudentId> Raj@outlook.com </StudentId>
+	<AttendanceStatus>Absent </AttendanceStatus>
+	</attendance>
+	
+	<attendance>
+	<SlotNo> 5</SlotNo>
+	<StudentId> Raj@outlook.com </StudentId>
+	<AttendanceStatus>Present </AttendanceStatus>
+	</attendance>
+
+</attendancelist>

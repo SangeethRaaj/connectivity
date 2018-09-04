@@ -1,0 +1,7 @@
+ <!ELEMENT classlist (class)>
+<!ELEMENT class (Id,UserName,Name)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+
+ 

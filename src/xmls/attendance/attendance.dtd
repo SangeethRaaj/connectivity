@@ -1,0 +1,5 @@
+<!ELEMENT attendancelist (attendance)>
+<!ELEMENT attendance (SlotNo,StudentId,AttendanceStatus)>
+<!ELEMENT SlotNo (#PCDATA)>
+<!ELEMENT StudentId (#PCDATA)>
+<!ELEMENT AttendanceStatus (#PCDATA)>
